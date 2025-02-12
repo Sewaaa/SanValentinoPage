@@ -42,14 +42,13 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
-  
-
 
 .gif_container img {
-    width: 100%;  /* Occupa tutta la larghezza del contenitore */
-    max-width: 400px;  /* Imposta una dimensione massima */
-    height: auto;  /* Mantiene le proporzioni originali */
-    display: block;  /* Rimuove eventuali spazi indesiderati */
-    margin: 20px auto;  /* Centra l'immagine */
-    border-radius: 10px; /* Opzionale: angoli arrotondati */
+    width: auto;  /* Mantiene la larghezza originale dell'immagine */
+    max-width: 400px;  /* Imposta una larghezza massima */
+    height: auto;  /* Mantiene le proporzioni */
+    display: block;  
+    margin: 20px auto;  
+    border-radius: 10px;
+    object-fit: contain; /* Assicura che l'immagine non venga distorta */
 }
