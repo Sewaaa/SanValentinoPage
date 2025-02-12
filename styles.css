@@ -43,9 +43,13 @@ body {
     cursor: pointer;
   }
   
-  .gif_container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
+
+
+.gif_container img {
+    width: 100%;  /* Occupa tutta la larghezza del contenitore */
+    max-width: 400px;  /* Imposta una dimensione massima */
+    height: auto;  /* Mantiene le proporzioni originali */
+    display: block;  /* Rimuove eventuali spazi indesiderati */
+    margin: 20px auto;  /* Centra l'immagine */
+    border-radius: 10px; /* Opzionale: angoli arrotondati */
+}
