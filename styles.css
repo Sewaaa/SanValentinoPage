@@ -45,8 +45,8 @@ body {
 
 .gif_container img {
     width: auto;  /* Mantiene la larghezza originale */
-    max-width: 100px;  /* Imposta una larghezza massima più piccola */
-    max-height: 100px;  /* Imposta un'altezza massima per evitare immagini troppo alte */
+    max-width: 200px;  /* Imposta una larghezza massima più piccola */
+    max-height: 200px;  /* Imposta un'altezza massima per evitare immagini troppo alte */
     height: auto;  /* Mantiene le proporzioni */
     display: block;  
     margin: 20px auto;  
