@@ -44,13 +44,13 @@ body {
   }
 
 .gif_container img {
-    width: auto;  /* Mantiene la larghezza originale */
-    max-width: 200px;  /* Imposta una larghezza massima più piccola */
-    max-height: 200px;  /* Imposta un'altezza massima per evitare immagini troppo alte */
-    height: auto;  /* Mantiene le proporzioni */
+    width: auto;  
+    max-width: 200px;  
+    max-height: 200px;  
+    height: auto;  
     display: block;  
     margin: 20px auto;  
     border-radius: 10px;
-    object-fit: contain; /* Evita distorsioni */
+    object-fit: contain; 
 }
 
